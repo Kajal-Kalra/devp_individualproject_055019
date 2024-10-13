@@ -37,6 +37,3 @@ In addition to the dashboard, the project includes an in-depth data analysis not
 - **Product & Market Insights**: Identification of top import and export products, key markets, and shipping method preferences.
 - **Statistical Testing**: Application of ANOVA, normality tests, and correlation analysis to better understand trade data.
 - **Observations and Recommendations**: The notebook concludes with a set of observations, managerial insights, and strategic recommendations based on the analysis.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
