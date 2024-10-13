@@ -16,6 +16,27 @@ The primary goal of this project is to understand the drivers of trade flow effi
 To run the dashboard, follow these steps:
 
 1. Clone the repository and navigate to the project directory.
-2. Make sure you have all required dependencies installed:
-   ```bash
-   pip install pandas numpy matplotlib seaborn plotly streamlit
+2. Install the required dependencies by running the following command: `pip install pandas numpy matplotlib seaborn plotly streamlit`
+3. Start the Streamlit app by running the following command: `streamlit run 055019_Dashboard_Devp.py`
+
+The dashboard includes the following visualizations:
+
+- **Sunburst Chart**: Visualizes trade breakdown by category and type (import/export).
+- **Yearly Trend Line Chart**: Shows how trade volume has changed over the years.
+- **Treemap of Countries**: Highlights the top countries by trade value.
+- **Bar Chart of Top Products**: Displays the highest value products traded.
+- **Scatter Plot**: Plots weight vs. value of trades to explore the relationship between the two.
+- **Choropleth Map**: Shows the geographic distribution of trade value by country.
+- **Trade Balance Analysis**: Illustrates whether countries are net exporters or importers.
+
+## Analysis Report
+In addition to the dashboard, the project includes an in-depth data analysis notebook. The notebook covers:
+
+- **Descriptive Statistics**: Analysis of trade value, quantity, and weight using measures of central tendency, dispersion, and correlation.
+- **Yearly & Monthly Trends**: Analysis of seasonal and annual trade patterns.
+- **Product & Market Insights**: Identification of top import and export products, key markets, and shipping method preferences.
+- **Statistical Testing**: Application of ANOVA, normality tests, and correlation analysis to better understand trade data.
+- **Observations and Recommendations**: The notebook concludes with a set of observations, managerial insights, and strategic recommendations based on the analysis.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
