@@ -17,7 +17,7 @@ To run the dashboard, follow these steps:
 
 1. Clone the repository and navigate to the project directory.
 2. Install the required dependencies by running the following command: `pip install pandas numpy matplotlib seaborn plotly streamlit`
-3. Start the Streamlit app by running the following command: `streamlit run 055019_Dashboard_Devp.py`
+3. Start the Streamlit app by running the following command: `streamlit run 055019_Dashboard.py`
 
 The dashboard includes the following visualizations:
 
